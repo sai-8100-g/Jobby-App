@@ -1,0 +1,131 @@
+.job-list-item-container {
+  background-color: #272727;
+  width: 98%;
+  padding: 4%;
+  margin: 1%;
+  font-family: 'Roboto';
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+p {
+  margin: 0px;
+  align-self: center;
+  font-size: 1vw;
+}
+
+h1 {
+  font-size: 2vw;
+}
+
+.companyLogo {
+  width: 60px;
+  height: 60px;
+  margin-right: 2%;
+  align-self: center;
+}
+
+.icons {
+  font-size: 2vw;
+  margin-right: 2%;
+}
+
+.star {
+  color: #fbbf24;
+}
+
+.jobsLink {
+  text-decoration: none;
+}
+
+.logo-title-container,
+.star-rating-container,
+.location-package-container,
+.location-type-container,
+.location-container,
+.type-container {
+  display: flex;
+}
+
+.logo-title-container {
+  margin-bottom: 4%;
+}
+
+.location-package-container {
+  justify-content: space-between;
+}
+
+.location-type-container {
+  width: 30%;
+}
+
+.location-container {
+  width: 50%;
+}
+.type-container {
+  width: 50%;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 3vw;
+  }
+
+  .location-type-container {
+    width: 45%;
+  }
+
+  .icons {
+    font-size: 3vw;
+  }
+  h1 {
+    font-size: 5vw;
+  }
+  .companyLogo {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  p {
+    font-size: 2vw;
+  }
+
+  .location-type-container {
+    width: 45%;
+  }
+
+  .icons {
+    font-size: 2vw;
+  }
+  h1 {
+    font-size: 3vw;
+  }
+  .companyLogo {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  p {
+    font-size: 1vw;
+  }
+
+  .location-type-container {
+    width: 35%;
+  }
+
+  .icons {
+    font-size: 2vw;
+  }
+  h1 {
+    font-size: 2vw;
+  }
+  .companyLogo {
+    width: 80px;
+    height: 80px;
+  }
+}

@@ -1,0 +1,263 @@
+body {
+  background-color: #000000;
+}
+
+.jobDetailsContainer {
+  width: 98%;
+  margin: 1%;
+  background-color: #272727;
+  padding: 2%;
+}
+
+.logoTitleContainer,
+.ratingStarContainer,
+.locationContainer,
+.typeContainer,
+.packageLocationTypeContainer,
+.locationTypeContainer,
+.headingAnchorContainer {
+  display: flex;
+}
+
+.logoTitleContainer {
+  margin-bottom: 4%;
+}
+
+.anchorElement {
+  text-decoration: none;
+  align-self: center;
+  font-size: 1vw;
+}
+
+.packageLocationTypeContainer,
+.locationTypeContainer,
+.headingAnchorContainer {
+  justify-content: space-between;
+}
+
+.locationTypeContainer {
+  width: 20%;
+}
+
+.titleStarContainer {
+  align-self: center;
+}
+
+.detailsPara {
+  font-size: 1vw;
+  color: #ffffff;
+  align-self: center;
+}
+
+.detailHeading {
+  font-size: 2vw;
+  color: #ffffff;
+}
+
+.icons {
+  color: #ffffff;
+  font-size: 2vw;
+  align-self: center;
+  margin-right: 4%;
+}
+
+.star {
+  color: #fbbf24;
+}
+
+.jobDetailsLogo {
+  width: 80px;
+  height: 80px;
+  align-self: center;
+  margin-right: 3%;
+}
+
+.skillsUl {
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillsListitem {
+  width: 30%;
+  margin: 1%;
+  display: flex;
+}
+
+.skillsImg {
+  width: 80px;
+  height: 80px;
+  align-self: center;
+  margin-right: 4%;
+}
+
+.lifeAtCompanyContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.companyInfoContainer {
+  width: 60%;
+  padding: 2%;
+}
+
+.companyImgContainer {
+  width: 40%;
+  padding: 2%;
+}
+
+.companyImg {
+  width: 100%;
+}
+
+.similarJobsSection {
+  width: 100%;
+  padding: 2%;
+}
+
+.similarJobsUl {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.similarJobsHeading {
+  margin-left: 1.5%;
+}
+
+@media (max-width: 576px) {
+  .icons {
+    font-size: 3vw;
+  }
+
+  .detailsPara {
+    font-size: 3vw;
+  }
+
+  .detailHeading {
+    font-size: 4vw;
+  }
+
+  .jobDetailsLogo {
+    width: 15%;
+    height: 15%;
+    align-self: center;
+  }
+
+  .locationTypeContainer {
+    width: 40%;
+  }
+  .skillsImg {
+    width: 30px;
+    height: 30px;
+  }
+  .anchorElement {
+    font-size: 3vw;
+  }
+
+  .lifeAtCompanyContainer {
+    flex-direction: column;
+  }
+
+  .companyInfoContainer {
+    width: 100%;
+  }
+
+  .companyImgContainer {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .icons {
+    font-size: 2vw;
+  }
+
+  .detailsPara {
+    font-size: 2vw;
+  }
+
+  .detailHeading {
+    font-size: 4vw;
+  }
+
+  .jobDetailsLogo {
+    width: 10%;
+    height: 10%;
+    align-self: center;
+  }
+
+  .locationTypeContainer {
+    width: 25%;
+  }
+  .skillsImg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .anchorElement {
+    font-size: 2vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .icons {
+    font-size: 2vw;
+  }
+
+  .detailsPara {
+    font-size: 2vw;
+  }
+
+  .detailHeading {
+    font-size: 3vw;
+  }
+
+  .jobDetailsLogo {
+    width: 8%;
+    height: 8%;
+    align-self: center;
+  }
+
+  .locationTypeContainer {
+    width: 25%;
+  }
+  .skillsImg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .anchorElement {
+    font-size: 2vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .icons {
+    font-size: 1.5vw;
+  }
+
+  .detailsPara {
+    font-size: 1.5vw;
+  }
+
+  .detailHeading {
+    font-size: 2vw;
+  }
+
+  .jobDetailsLogo {
+    width: 7%;
+    height: 7%;
+    align-self: center;
+  }
+
+  .locationTypeContainer {
+    width: 22%;
+  }
+  .skillsImg {
+    width: 80px;
+    height: 80px;
+  }
+}
